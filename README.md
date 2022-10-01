@@ -1,5 +1,7 @@
 # ASSEMBLY TUTO
 
+Assembly tutorial that we did at the start of the workshop
+
 ## 01) Return 42
 
 Start by saving the old stackframe by saving ebp address in the stack.
@@ -47,6 +49,7 @@ add eax, edx
 
 # CTFs
 
+Multiple Blackfoot's reverse engineering challenges
 
 ## ELF  
 
