@@ -113,6 +113,20 @@ J'ai donc ajouter `RCX` à mon input pour matcher ce que le programme attendait.
 
 Ce qui donne `OduNjrade133742A`. J'ai donc pu obtenir mong flag.
 
+### ELF04
+
+Doit avoir 1 argument.
+
+edi = 0x10
+
+edi est la longueur de l'argument 1.
+
+ecx = 0x680
+
+Est la valeur en hex de l'addition des tous les charactères de l'argument 1 (h + h + h + ...).
+
+L'argument `hhhhhhhhhhhhhhhh` était correct, j'ai donc validé mon flag avec l'url et j'ai obtenu `BFS[ApideliveredFLAG]`.
+
 ## QT
 
 ### QT1
